@@ -33,6 +33,8 @@ def meth2():
 
     cognito_app_url = "https://codingloop1.auth.us-east-1.amazoncognito.com"
     code = "75e55724-def5-47f7-ba8c-760b8f7f8dbc"
+    cognito_app_url = "http"
+    code = "3e21d44a-cc40-4f7c-954f-5b7556e5f4ac"
 
     token_url = f"{cognito_app_url}/oauth2/token"
     auth = requests.auth.HTTPBasicAuth(client_id, client_secret)
@@ -50,12 +52,4 @@ def meth2():
 
 
 meth2()
-
-
-
-
-
-
-
-
 
